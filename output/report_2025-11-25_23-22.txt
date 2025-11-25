@@ -1,0 +1,22 @@
+===== Linux Hardening Checker =====
+[+] Checking firewall status...
+[+] Checking SSH root login...
+[+] Checking password complexity...
+# dcredit = 0
+# ucredit = 0
+# lcredit = 0
+# ocredit = 0
+[+] Searching for world-writable directories...
+/var/lib/php/sessions
+/var/tmp
+/run/screen
+/run/lock
+/dev/mqueue
+/dev/shm
+/tmp
+/tmp/.font-unix
+/tmp/.XIM-unix
+/tmp/.ICE-unix
+/tmp/.X11-unix
+/tmp/VMwareDnD
+===== Scan Completed =====
